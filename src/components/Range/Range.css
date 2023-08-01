@@ -1,0 +1,29 @@
+.range {
+    text-align: center;
+    padding: 5rem 10rem;
+}
+
+.range>p {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #666666;
+}
+
+.range_data {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    margin-top: 3.5rem;
+}
+
+.range_data_img {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 2rem;
+}
+
+.range_data_img>h4 {
+    font-weight: 600;
+}
