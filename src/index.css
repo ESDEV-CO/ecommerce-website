@@ -85,11 +85,4 @@ button {
   border: none;
   cursor: pointer;
   background: transparent;
-  color: var(--pri_clr);
-}
-
-.store_container {
-  display: flex;
-  overflow: hidden;
-  height: 100svh;
 }

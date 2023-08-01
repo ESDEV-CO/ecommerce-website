@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.8125rem 3.375rem;
+}
+
+.navbar_logo {
+    display: flex;
+    align-items: center;
+    gap: 0.3125rem;
+    cursor: pointer;
+}
+
+.logo_name {
+    font-size: 2.125rem;
+    font-weight: 700;
+    color: #000000;
+}
+
+.navbar_links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar_links li {
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navbar_icons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar_icons button {
+    font-size: 1.5rem;
+    color: #000000;
+}
