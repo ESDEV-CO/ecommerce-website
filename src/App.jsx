@@ -3,6 +3,7 @@ import "./index.css";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Range from './components/Range/Range'
+import Products from "./components/Products/Products";
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Range />
+      <Products />
     </div>
   );
 };
