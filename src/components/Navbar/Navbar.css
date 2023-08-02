@@ -27,6 +27,13 @@
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar_links li:hover {
+    color: #B88E2F;
+    scale: 1.1;
+
 }
 
 .navbar_icons {
@@ -38,4 +45,10 @@
 .navbar_icons button {
     font-size: 1.5rem;
     color: #000000;
+    transition: 0.3s;
+}
+
+.navbar_icons button:hover {
+    color: #B88E2F;
+    scale: 1.05;
 }
