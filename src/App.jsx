@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Range from './components/Range/Range'
 import Products from "./components/Products/Products";
+import Carousel from "./components/Carousel/Carousel";
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <Hero />
       <Range />
       <Products />
+      <Carousel />
     </div>
   );
 };

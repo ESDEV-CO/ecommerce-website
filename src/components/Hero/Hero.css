@@ -35,10 +35,12 @@
     color: #333333;
 }
 
-.hero_info button {
+.filled_btn {
     background: #B88E2F;
     color: white;
     font-size: 1rem;
     padding: 1.5625rem 4.5rem;
     margin-top: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
 }

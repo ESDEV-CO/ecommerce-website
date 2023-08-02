@@ -87,3 +87,10 @@ button {
   cursor: pointer;
   background: transparent;
 }
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 150%;
+  color: #616161;
+}

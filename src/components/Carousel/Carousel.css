@@ -1,0 +1,50 @@
+.carousel {
+    background: #FCF8F3;
+    padding: 2rem 0 2rem 4rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.carousel_info {
+    max-width: 26.375rem;
+}
+
+.carousel_btn {
+    padding: 1.15rem 2.5rem;
+    margin-top: 1.5rem;
+}
+
+.carousel_slide1 {
+    position: relative;
+}
+
+.slide_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    width: 13.5625rem;
+    padding: 1.5rem;
+}
+
+.slide_description p {
+    display: flex;
+    align-items: center;
+}
+
+.arrow_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #B88E2F;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.75rem;
+    position: absolute;
+    bottom: 0;
+    left: 13.625rem;
+}

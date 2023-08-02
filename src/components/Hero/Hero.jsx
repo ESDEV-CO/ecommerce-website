@@ -9,7 +9,7 @@ const Hero = () => {
                 <h6>New Arrival</h6>
                 <h1>Discover our New Collection</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, dolorum nostrum minima odio mollitia sed soluta.</p>
-                <button>Buy Now</button>
+                <button className='filled_btn'>Buy Now</button>
             </div>
         </div>
     )
