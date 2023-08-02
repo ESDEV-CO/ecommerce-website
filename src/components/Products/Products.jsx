@@ -13,7 +13,7 @@ const Products = () => {
                         <h6>Stylish cafe chair</h6>
                         <div className="side_by_side">
                             <h5>Rp 2.500.000</h5>
-                            <s>Rp 3.500.000</s>
+                            <s className='sale30'>Rp 3.500.000</s>
                         </div>
                     </div>
                 </div>
@@ -27,6 +27,7 @@ const Products = () => {
                         </div>
                     </div>
                     <div className="product_info_cart">
+                        <button>Add to cart</button>
                     </div>
                 </div>
                 <div className="product_info">
@@ -36,11 +37,11 @@ const Products = () => {
                         <h6>Luxury big sofa </h6>
                         <div className="side_by_side">
                             <h5>Rp 7.000.000</h5>
-                            <s>Rp 14.000.000</s>
+                            <s className='sale50'>Rp 14.000.000</s>
                         </div>
                     </div>
                 </div>
-                <div className="product_info">
+                <div className="product_info new">
                     <img src={require('../../assets/respira.png')} alt="product" />
                     <div className="product_info_des">
                         <h4>Respira</h4>
@@ -60,7 +61,7 @@ const Products = () => {
                         </div>
                     </div>
                 </div>
-                <div className="product_info">
+                <div className="product_info new">
                     <img src={require('../../assets/muggo.png')} alt="product" />
                     <div className="product_info_des">
                         <h4>Muggo</h4>
@@ -77,11 +78,11 @@ const Products = () => {
                         <h6>cute bed set</h6>
                         <div className="side_by_side">
                             <h5>Rp 7.000.000</h5>
-                            <s>Rp 14.000.000</s>
+                            <s className='sale50'>Rp 14.000.000</s>
                         </div>
                     </div>
                 </div>
-                <div className="product_info">
+                <div className="product_info new">
                     <img src={require('../../assets/potty.png')} alt="product" />
                     <div className="product_info_des">
                         <h4>Potty</h4>
