@@ -1,0 +1,68 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+}
+
+.footer_logo {
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+}
+
+.footer_logo p {
+    margin-top: 3rem;
+    color: #9F9F9F;
+    font-weight: 400;
+}
+
+.footer_nav {
+    display: flex;
+    justify-content: space-between;
+    flex: 6;
+    margin-right: 5rem;
+}
+
+.footer_links {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer_links li {
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer_links li:hover {
+    color: #B88E2F;
+}
+
+.footer_links>h6 {
+    color: #9F9F9F;
+    margin-bottom: 0.5rem;
+}
+
+.email_sub {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.email_sub input {
+    background: transparent;
+    border: none;
+    font-size: 0.875rem;
+    color: #9F9F9F;
+    padding-right: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.email_btn {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #000000;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}

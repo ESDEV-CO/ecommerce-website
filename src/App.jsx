@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 import Products from "./components/Products/Products";
 import Carousel from "./components/Carousel/Carousel";
 import Category from "./components/Category/Category";
+import Footer from "./components/Footer/Footer";
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Category />
       <Products />
       <Carousel />
+      <Footer />
     </div>
   );
 };
