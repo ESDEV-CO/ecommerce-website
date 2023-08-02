@@ -1,5 +1,8 @@
 import React from 'react'
 import './Products.css'
+import { BiSolidShareAlt } from 'react-icons/bi'
+import { MdOutlineCompareArrows } from 'react-icons/md'
+import { AiFillHeart } from 'react-icons/ai'
 
 const Products = () => {
     return (
@@ -28,6 +31,11 @@ const Products = () => {
                     </div>
                     <div className="product_info_cart">
                         <button>Add to cart</button>
+                        <div className="info_cart_btn">
+                            <span><BiSolidShareAlt /> Share</span>
+                            <span><MdOutlineCompareArrows /> Compare</span>
+                            <span><AiFillHeart /> Like</span>
+                        </div>
                     </div>
                 </div>
                 <div className="product_info">
@@ -93,6 +101,7 @@ const Products = () => {
                     </div>
                 </div>
             </div>
+            <button className='show_more'>Show More</button>
         </div>
     )
 }
