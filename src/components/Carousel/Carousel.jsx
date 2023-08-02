@@ -2,6 +2,8 @@ import React from 'react'
 import './Carousel.css'
 import { GoHorizontalRule } from 'react-icons/go'
 import { BsArrowRight } from 'react-icons/bs'
+import { ImRadioChecked } from 'react-icons/im'
+import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 
 const Carousel = () => {
     return (
@@ -12,7 +14,7 @@ const Carousel = () => {
                 <button className='filled_btn carousel_btn'>Explore more</button>
             </div>
             <div className="carousel_data">
-                <div className="carousel_slide1">
+                <div className="carousel_slide">
                     <img src={require('../../assets/carousel1.png')} alt="slide1" />
                     <div className="slide_description">
                         <p>01 &nbsp; <GoHorizontalRule /> &nbsp; Bed Room</p>
@@ -20,8 +22,22 @@ const Carousel = () => {
                         <button className='arrow_btn'><BsArrowRight /></button>
                     </div>
                 </div>
-                <div className="carousel_slide2"></div>
-                <div className="carousel_slide3"></div>
+                <div className="carousel_slide">
+                    <img src={require('../../assets/carousel2.png')} alt="slide2" />
+                    <div className="carousel_slide_radio">
+                        <div className='slide_radio_active'>
+                            <ImRadioChecked />
+                        </div>
+                        <div className='slide_radio'></div>
+                        <div className='slide_radio'></div>
+                        <div className='slide_radio'></div>
+                    </div>
+                </div>
+                <div className="carousel_slide">
+                    <img src={require('../../assets/carousel3.png')} alt="slide3" />
+
+                </div>
+                <button className='next_btn'><MdOutlineKeyboardArrowRight /></button>
             </div>
         </div>
     )

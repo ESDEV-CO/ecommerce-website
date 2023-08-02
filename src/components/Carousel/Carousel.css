@@ -1,13 +1,14 @@
 .carousel {
     background: #FCF8F3;
-    padding: 2rem 0 2rem 4rem;
+    padding: 2.5rem 0 2.5rem 4rem;
     display: flex;
     align-items: center;
     gap: 1.5rem;
+    overflow-x: hidden;
 }
 
 .carousel_info {
-    max-width: 26.375rem;
+    width: 30%;
 }
 
 .carousel_btn {
@@ -15,7 +16,14 @@
     margin-top: 1.5rem;
 }
 
-.carousel_slide1 {
+.carousel_data {
+    position: relative;
+    display: flex;
+    gap: 1.5rem;
+    width: 70%;
+}
+
+.carousel_slide {
     position: relative;
 }
 
@@ -47,4 +55,42 @@
     position: absolute;
     bottom: 0;
     left: 13.625rem;
+}
+
+.slide_radio_active {
+    display: flex;
+    align-items: center;
+    color: #B88E2F;
+    font-size: 1rem;
+}
+
+.carousel_slide_radio {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 2.5rem;
+}
+
+.slide_radio {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: #D8D8D8;
+}
+
+.next_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: white;
+    color: #B88E2F;
+    font-size: 1.25rem;
+    position: absolute;
+    right: 2%;
+    bottom: 50%;
+
+
 }
