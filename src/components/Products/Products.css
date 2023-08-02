@@ -16,6 +16,12 @@
     flex-direction: column;
     width: 17.8125rem;
     position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.product_info:hover {
+    filter: opacity(0.9)
 }
 
 .new::before {

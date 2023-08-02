@@ -86,6 +86,11 @@ button {
   border: none;
   cursor: pointer;
   background: transparent;
+  transition: all 0.3s linear;
+}
+
+button:hover {
+  opacity: 0.8;
 }
 
 p {

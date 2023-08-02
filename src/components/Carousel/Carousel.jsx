@@ -25,12 +25,12 @@ const Carousel = () => {
                 <div className="carousel_slide">
                     <img src={require('../../assets/carousel2.png')} alt="slide2" />
                     <div className="carousel_slide_radio">
-                        <div className='slide_radio_active'>
+                        <button className='slide_radio_active'>
                             <ImRadioChecked />
-                        </div>
-                        <div className='slide_radio'></div>
-                        <div className='slide_radio'></div>
-                        <div className='slide_radio'></div>
+                        </button>
+                        <button className='slide_radio'></button>
+                        <button className='slide_radio'></button>
+                        <button className='slide_radio'></button>
                     </div>
                 </div>
                 <div className="carousel_slide">

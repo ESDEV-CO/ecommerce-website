@@ -1,15 +1,15 @@
-.range {
+.category {
     text-align: center;
     padding: 5rem 10rem;
 }
 
-.range>p {
+.category>p {
     font-size: 1.25rem;
     font-weight: 500;
     color: #666666;
 }
 
-.range_data {
+.category_data {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -18,13 +18,18 @@
     margin-top: 3.5rem;
 }
 
-.range_data_img {
+.category_data_img {
     display: flex;
     flex-direction: column;
     cursor: pointer;
     gap: 2rem;
+    transition: 0.3s;
 }
 
-.range_data_img>h4 {
+.category_data_img:hover {
+    opacity: 0.8;
+}
+
+.category_data_img>h4 {
     font-weight: 600;
 }
