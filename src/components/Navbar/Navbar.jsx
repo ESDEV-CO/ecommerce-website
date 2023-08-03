@@ -40,7 +40,9 @@ const Navbar = () => {
           <AiOutlineHeart />
         </button>
         <button>
-          <AiOutlineShoppingCart />
+          <Link to="/cart">
+            <AiOutlineShoppingCart />
+          </Link>
         </button>
       </div>
     </div>
