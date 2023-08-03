@@ -230,6 +230,12 @@ const Shop = () => {
             </div>
           </div>
         </div>
+        <div className="shop_products_btns">
+          <button className="product_btn_active ">1</button>
+          <button className="product_btn">2</button>
+          <button className="product_btn">3</button>
+          <button className="product_btn">Next</button>
+        </div>
       </section>
       <section className="shop_support"></section>
     </div>

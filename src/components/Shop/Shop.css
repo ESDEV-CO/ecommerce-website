@@ -80,3 +80,24 @@
 .right_padding {
     padding-right: 3.5rem;
 }
+
+.shop_products_btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.product_btn {
+    padding: 1rem;
+    background: #F9F1E7;
+    border-radius: 5px;
+}
+
+.product_btn_active {
+    padding: 1rem;
+    background: #B88E2F;
+    border-radius: 5px;
+    color: white;
+}
