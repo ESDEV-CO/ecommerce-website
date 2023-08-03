@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import { FaArrowUpLong } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -16,16 +17,20 @@ const Footer = () => {
         <ul className="footer_links">
           <h6>Links</h6>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" onClick={() => window.scroll(100, 100)}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/shop">Shop</Link>
+            <Link to="/shop" onClick={() => window.scroll(100, 100)}>
+              Shop
+            </Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link>About</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link>Contact</Link>
           </li>
         </ul>
         <ul className="footer_links">
@@ -42,6 +47,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <button className="arrow_btn" onClick={() => window.scroll(100, 100)}>
+        <FaArrowUpLong />
+      </button>
     </div>
   );
 };

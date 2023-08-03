@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 2rem 3rem;
+    position: relative;
 }
 
 .footer_logo {
@@ -70,4 +71,15 @@
 
 .email_btn:hover {
     color: #B88E2F;
+}
+
+.arrow_btn {
+    position: absolute;
+    background: #B88E2F;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    left: 92%;
+    top: 60%;
 }
