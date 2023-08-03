@@ -3,13 +3,14 @@ import "./index.css";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Home from "./Home";
-
+import Shop from "./components/Shop/Shop";
 
 const App = () => {
   return (
     <div className="store_container">
       <Navbar />
-      <Home />
+      {/* <Home /> */}
+      <Shop />
       <div className="footer_wrapper">
         <Footer />
       </div>
