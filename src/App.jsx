@@ -6,6 +6,7 @@ import Products from "./components/Products/Products";
 import Carousel from "./components/Carousel/Carousel";
 import Category from "./components/Category/Category";
 import Footer from "./components/Footer/Footer";
+import Share from "./components/Share/Share";
 
 
 const App = () => {
@@ -16,7 +17,13 @@ const App = () => {
       <Category />
       <Products />
       <Carousel />
-      <Footer />
+      <Share />
+      <div className="footer_wrapper">
+        <Footer />
+      </div>
+      <div className="rights">
+        <h6>2023 furino. All rights reserved</h6>
+      </div>
     </div>
   );
 };
