@@ -90,14 +90,38 @@
 }
 
 .product_btn {
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     background: #F9F1E7;
     border-radius: 5px;
+    font-size: 1.25rem;
 }
 
 .product_btn_active {
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     background: #B88E2F;
     border-radius: 5px;
     color: white;
+    font-size: 1.25rem;
+}
+
+.shop_support {
+    background: #FAF3EA;
+    width: 100%;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.support_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.support_data {
+    display: flex;
+    gap: 1rem;
+    text-align: left;
 }
