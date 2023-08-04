@@ -27,10 +27,14 @@ const Footer = () => {
             </Link>
           </li>
           <li>
-            <Link>About</Link>
+            <Link to="/blog" onClick={() => window.scroll(100, 100)}>
+              Blog
+            </Link>
           </li>
           <li>
-            <Link>Contact</Link>
+            <Link to="/contact" onClick={() => window.scroll(100, 100)}>
+              Contact
+            </Link>
           </li>
         </ul>
         <ul className="footer_links">

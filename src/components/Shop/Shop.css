@@ -112,16 +112,3 @@
     align-items: center;
     justify-content: center;
 }
-
-.support_wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 80%;
-}
-
-.support_data {
-    display: flex;
-    gap: 1rem;
-    text-align: left;
-}

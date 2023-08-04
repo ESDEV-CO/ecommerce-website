@@ -1,15 +1,15 @@
 import React from "react";
+import Blog from "../Blog/Blog";
 import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer/Footer";
-import Cart from "../components/Cart/Cart";
 import Support from "../components/Support/Support";
+import Footer from "../components/Footer/Footer";
 
-const CartScreen = () => {
+const BlogScreen = () => {
   return (
     <div>
       <div className="store_container">
         <Navbar />
-        <Cart />
+        <Blog />
         <Support />
         <div className="footer_wrapper">
           <Footer />
@@ -22,4 +22,4 @@ const CartScreen = () => {
   );
 };
 
-export default CartScreen;
+export default BlogScreen;
