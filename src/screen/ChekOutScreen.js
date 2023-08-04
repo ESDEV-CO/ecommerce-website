@@ -1,14 +1,14 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer/Footer";
-import Cart from "../components/Cart/Cart";
 import Support from "../components/Support/Support";
+import Footer from "../components/Footer/Footer";
+import CheckOut from "../components/CheckOut/CheckOut";
 
-const CartScreen = () => {
+const ChekOutScreen = () => {
   return (
     <div className="cart_container">
       <Navbar />
-      <Cart />
+      <CheckOut />
       <Support />
       <div className="footer_wrapper">
         <Footer />
@@ -20,4 +20,4 @@ const CartScreen = () => {
   );
 };
 
-export default CartScreen;
+export default ChekOutScreen;

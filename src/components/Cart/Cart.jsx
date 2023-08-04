@@ -2,6 +2,7 @@ import React from "react";
 import "./Cart.css";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import Table from "../Table/Table";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   return (
@@ -32,7 +33,9 @@ const Cart = () => {
             <h6>Total</h6>
             <p>250,000.00</p>
           </div>
-          <button className="card_btn"> Check Out</button>
+          <Link to="/checkout" className="card_btn">
+            Check Out
+          </Link>
         </div>
       </section>
     </div>
