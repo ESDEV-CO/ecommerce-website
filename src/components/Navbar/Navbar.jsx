@@ -13,7 +13,9 @@ const Navbar = () => {
         <span className="logo_img">
           <img src={require("../../assets/logo.png")} alt="logo" />
         </span>
-        <span className="logo_name">Furniro</span>
+        <Link to="/" className="logo_name">
+          Furniro
+        </Link>
       </div>
       <ul className="navbar_links">
         <li>
