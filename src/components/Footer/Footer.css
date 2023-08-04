@@ -52,10 +52,7 @@
 }
 
 .email_sub input {
-    background: transparent;
-    border: none;
     font-size: 0.875rem;
-    color: #9F9F9F;
     padding-right: 1rem;
     border-bottom: 1px solid black;
 }

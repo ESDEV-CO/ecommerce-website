@@ -3,6 +3,10 @@
     padding: 5rem 10rem;
 }
 
+.category>h3 {
+    color: #3a3a3a;
+}
+
 .category>p {
     font-size: 1.25rem;
     font-weight: 500;
