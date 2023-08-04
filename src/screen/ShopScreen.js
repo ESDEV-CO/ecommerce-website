@@ -5,7 +5,7 @@ import Footer from "../components/Footer/Footer";
 import Support from "../components/Support/Support";
 function ShopScreen() {
   return (
-    <div className="store_container">
+    <div className="shop_container">
       <Navbar />
       <Shop />
       <Support />

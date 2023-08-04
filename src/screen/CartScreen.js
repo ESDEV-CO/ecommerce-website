@@ -7,7 +7,7 @@ import Support from "../components/Support/Support";
 const CartScreen = () => {
   return (
     <div>
-      <div className="store_container">
+      <div className="cart_container">
         <Navbar />
         <Cart />
         <Support />

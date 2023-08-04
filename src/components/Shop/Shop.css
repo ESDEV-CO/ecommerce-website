@@ -14,15 +14,22 @@
     font-size: 3rem;
     font-weight: 500;
     margin-top: 2rem;
+    color: #000000;
 }
 
 .shop_header span {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 500;
 }
+
+.shop_header span span {
+    font-weight: 400;
+    opacity: 0.9;
+}
+
 
 .shop_header>img {
     margin-top: 2rem;

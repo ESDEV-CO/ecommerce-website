@@ -11,7 +11,7 @@ const Shop = () => {
       <section className="shop_header">
         <h2>Shop</h2>
         <span>
-          Home <MdOutlineKeyboardArrowRight /> Shop
+          Home <MdOutlineKeyboardArrowRight /> <span>Shop</span>
         </span>
         <img src={require("../../assets/product_bg.png")} alt="" />
 

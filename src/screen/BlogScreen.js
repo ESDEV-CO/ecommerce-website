@@ -1,5 +1,5 @@
 import React from "react";
-import Blog from "../Blog/Blog";
+import Blog from "../components/Blog/Blog";
 import Navbar from "../components/Navbar/Navbar";
 import Support from "../components/Support/Support";
 import Footer from "../components/Footer/Footer";
@@ -7,7 +7,7 @@ import Footer from "../components/Footer/Footer";
 const BlogScreen = () => {
   return (
     <div>
-      <div className="store_container">
+      <div className="blog_container">
         <Navbar />
         <Blog />
         <Support />
