@@ -6,6 +6,9 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { BsFillClockFill } from "react-icons/bs";
 
 const Contact = () => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+  };
   return (
     <div className="contact">
       <section className="contact_header">
@@ -65,7 +68,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <form className="contact_data_form">
+          <form className="contact_data_form" onSubmit={handleSubmit}>
             <label className="form_label">
               Your name
               <input type="text" placeholder="Abc" />
@@ -86,7 +89,9 @@ const Contact = () => {
                 placeholder="Hi! i'd like to ask about"
               />
             </label>
-            <button className="filled_btn form_btn">Submit</button>
+            <button className="filled_btn form_btn" type="submit">
+              Submit
+            </button>
           </form>
         </div>
       </section>
