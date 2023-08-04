@@ -1,6 +1,7 @@
 import React from "react";
 import "./Cart.css";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import Table from "../Table/Table";
 
 const Cart = () => {
   return (
@@ -15,6 +16,23 @@ const Cart = () => {
           <span>
             Home <MdOutlineKeyboardArrowRight /> <span>Cart</span>
           </span>
+        </div>
+      </section>
+      <section className="cart_data">
+        <div className="cart_data_table">
+          <Table />
+        </div>
+        <div className="cart_data_card">
+          <h3>Cart Totals</h3>
+          <div className="card_subtotal">
+            <h6>Subtotal</h6>
+            <p>250,000.00</p>
+          </div>
+          <div className="card_total">
+            <h6>Total</h6>
+            <p>250,000.00</p>
+          </div>
+          <button className="card_btn"> Check Out</button>
         </div>
       </section>
     </div>

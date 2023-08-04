@@ -132,3 +132,7 @@ p {
 .rights {
   padding: 1.5rem 3rem;
 }
+
+th {
+  padding: 1rem 0;
+}
