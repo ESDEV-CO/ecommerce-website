@@ -6,6 +6,7 @@ import ContactScreen from "../screen/ContactScreen";
 import CartScreen from "../screen/CartScreen";
 import BlogScreen from "../screen/BlogScreen";
 import ChekOutScreen from "../screen/ChekOutScreen";
+import SinglePageScreen from "../screen/SinglePageScreen";
 
 function AppRoutes() {
   return (
@@ -17,6 +18,7 @@ function AppRoutes() {
         <Route path="/cart" element={<CartScreen />} />
         <Route path="/blog" element={<BlogScreen />} />
         <Route path="/checkout" element={<ChekOutScreen />} />
+        <Route path="/single" element={<SinglePageScreen />} />
       </Routes>
     </>
   );
