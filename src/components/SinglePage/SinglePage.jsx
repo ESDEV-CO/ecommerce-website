@@ -94,6 +94,7 @@ const SinglePage = () => {
           </span>
         </span>
       </section>
+      <section className="description"></section>
     </div>
   );
 };
