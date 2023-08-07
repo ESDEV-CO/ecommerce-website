@@ -1,0 +1,29 @@
+.blog {
+    padding: 3rem 5rem;
+}
+
+.blog_card_logo {
+    display: flex;
+    gap: 1rem;
+    color: #9F9F9F;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.blog_card_logo span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.blog_card img {
+    width: 100%;
+}
+
+.blog_data {
+    width: 70%;
+}
+
+.blog_sidebar {
+    width: 30%;
+}
