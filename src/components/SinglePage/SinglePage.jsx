@@ -4,6 +4,9 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { BsStarFill } from "react-icons/bs";
 import { BsStarHalf } from "react-icons/bs";
 import { BsFillCircleFill } from "react-icons/bs";
+import { FaFacebook } from "react-icons/fa";
+import { BsLinkedin } from "react-icons/bs";
+import { AiFillTwitterCircle } from "react-icons/ai";
 
 const SinglePage = () => {
   return (
@@ -77,6 +80,19 @@ const SinglePage = () => {
             <button className="card_btn">+ Compare</button>
           </div>
         </div>
+      </section>
+      <section className="social">
+        <span className="social_info">SKU : SS001</span>
+        <span className="social_info">Category : Sofas</span>
+        <span className="social_info">Tags : Sofa, Chair, Home, Shop</span>
+        <span className="social_info">
+          Share :
+          <span className="social_logo">
+            <FaFacebook />
+            <BsLinkedin />
+            <AiFillTwitterCircle />
+          </span>
+        </span>
       </section>
     </div>
   );
