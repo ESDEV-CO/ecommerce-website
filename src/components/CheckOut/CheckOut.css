@@ -35,4 +35,59 @@
 
 .contact_data_info {
     width: 50%;
+    margin-top: 3rem;
+}
+
+.info_heading,
+.info_product,
+.info_subtotal,
+.info_total,
+.info_product>h6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.data_info_first_child {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-bottom: 1px solid #D9D9D9;
+    padding-bottom: 2rem;
+}
+
+.info_heading>h4 {
+    font-weight: 500;
+}
+
+.info_subtotal h5,
+.info_total h5 {
+    font-weight: 500;
+}
+
+.info_total h4 {
+    color: #B88E2F;
+}
+
+.payment_method {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.opacity {
+    color: #9F9F9F;
+}
+
+.data_info_second_child {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.width_50_btn {
+    width: 40%;
+    margin-inline: auto;
+    margin-top: 2rem;
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import "./CheckOut.css";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { IoIosRadioButtonOn } from "react-icons/io";
+import { IoMdRadioButtonOff } from "react-icons/io";
 
 const CheckOut = () => {
   const handleSubmit = (event) => {
@@ -74,12 +76,51 @@ const CheckOut = () => {
           </form>
         </div>
         <div className="contact_data_info">
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
-            harum tenetur dolorum ea reiciendis facilis error! Quis, facere vero
-            possimus eaque cum beatae quisquam est voluptas? Amet, repudiandae!
-            Illo, labore!
-          </p>
+          <div className="data_info_first_child">
+            <span className="info_heading">
+              <h4>Product</h4>
+              <h4>Subtotal</h4>
+            </span>
+            <span className="info_product">
+              <h6>
+                <p>Asgaard sofa</p> x 1
+              </h6>
+              <h6>Rs. 250,000.00</h6>
+            </span>
+            <span className="info_subtotal">
+              <h5>Subtotal</h5>
+              <h6>Rs. 250,000.00</h6>
+            </span>
+            <span className="info_total">
+              <h5>Total</h5>
+              <h4>Rs. 250,000.00</h4>
+            </span>
+          </div>
+          <div className="data_info_second_child">
+            <span className="payment_method">
+              <IoIosRadioButtonOn />
+              <h6>Direct Bank Transfer</h6>
+            </span>
+            <p className="opacity">
+              Make your payment directly into our bank account. Please use your
+              Order ID as the payment reference. Your order will not be shipped
+              until the funds have cleared in our account.
+            </p>
+            <span className="payment_method opacity">
+              <IoMdRadioButtonOff />
+              <h6>Direct Bank Transfer</h6>
+            </span>
+            <span className="payment_method opacity">
+              <IoMdRadioButtonOff />
+              <h6>Cash On Delivery</h6>
+            </span>
+            <p style={{ color: "#000000" }}>
+              Your personal data will be used to support your experience
+              throughout this website, to manage access to your account, and for
+              other purposes described in our <b>privacy policy</b>.
+            </p>
+            <button className="card_btn width_50_btn">Place Order</button>
+          </div>
         </div>
       </section>
     </div>
