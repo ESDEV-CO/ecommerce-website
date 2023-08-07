@@ -1,0 +1,38 @@
+.checkout_data {
+    padding: 4rem 5rem;
+}
+
+.checkout_data {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+}
+
+.user_name {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.select {
+    border: 1px solid #9F9F9F;
+    border-radius: 0.625rem;
+    width: 33rem;
+    height: 5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: 1rem;
+    color: #9F9F9F;
+}
+
+.width_50 input {
+    width: 15.5rem;
+}
+
+.contact_data_form {
+    width: 50%;
+}
+
+.contact_data_info {
+    width: 50%;
+}
