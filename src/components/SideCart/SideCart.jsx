@@ -8,9 +8,9 @@ const SideCart = () => {
     <div className="sidecart">
       <div className="sidecart_heading">
         <h4>Shopping Cart</h4>
-        <Link to="/single">
-          <img src={require("../../assets/crossbag.png")} alt="cross" />
-        </Link>
+        {/* <Link to="/single"> */}
+        {/* <img src={require("../../assets/crossbag.png")} alt="cross" /> */}
+        {/* </Link> */}
       </div>
       <div className="horizontal_line"></div>
       <div className="sidecart_data">
