@@ -142,6 +142,7 @@ p {
   padding: 1.5rem 3rem;
 }
 
+/* 
 .sidebar_container {
   position: relative;
   display: flex;
@@ -165,4 +166,4 @@ p {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 1;
-}
+} */
