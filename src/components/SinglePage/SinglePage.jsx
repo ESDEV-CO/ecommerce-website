@@ -94,7 +94,82 @@ const SinglePage = () => {
           </span>
         </span>
       </section>
-      <section className="description"></section>
+      <section className="description">
+        <div className="description_heading">
+          <h4>Description</h4>
+          <h4>Additional Information</h4>
+          <h4>Reviews [5]</h4>
+        </div>
+        <div className="description_para">
+          <p>
+            Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn
+            portable active stereo speaker takes the unmistakable look and sound
+            of Marshall, unplugs the chords, and takes the show on the road.
+          </p>
+          <p>
+            Weighing in under 7 pounds, the Kilburn is a lightweight piece of
+            vintage styled engineering. Setting the bar as one of the loudest
+            speakers in its class, the Kilburn is a compact, stout-hearted hero
+            with a well-balanced audio which boasts a clear midrange and
+            extended highs for a sound that is both articulate and pronounced.
+            The analogue knobs allow you to fine tune the controls to your
+            personal preferences while the guitar-influenced leather strap
+            enables easy and stylish travel.
+          </p>
+        </div>
+        <div className="description_img">
+          <img src={require("../../assets/sofa1.png")} alt="sofa1" />
+          <img src={require("../../assets/sofa2.png")} alt="sofa2" />
+        </div>
+      </section>
+      <section className="related_products">
+        <h3>Related Products</h3>
+        <div className="related_wrapper">
+          <div className="product_info">
+            <img src={require("../../assets/sylthe.png")} alt="product" />
+            <div className="product_info_des">
+              <h4>Syltherine</h4>
+              <h6>Stylish cafe chair</h6>
+              <div className="side_by_side">
+                <h5>Rp 2.500.000</h5>
+                <s className="sale30">Rp 3.500.000</s>
+              </div>
+            </div>
+          </div>
+          <div className="product_info">
+            <img src={require("../../assets/leviosa.png")} alt="product" />
+            <div className="product_info_des">
+              <h4>Leviosa</h4>
+              <h6>Stylish cafe chair</h6>
+              <div className="side_by_side">
+                <h5>Rp 2.500.000</h5>
+              </div>
+            </div>
+          </div>
+          <div className="product_info">
+            <img src={require("../../assets/lolito.png")} alt="product" />
+            <div className="product_info_des">
+              <h4>Lolito</h4>
+              <h6>Luxury big sofa </h6>
+              <div className="side_by_side">
+                <h5>Rp 7.000.000</h5>
+                <s className="sale50">Rp 14.000.000</s>
+              </div>
+            </div>
+          </div>
+          <div className="product_info new">
+            <img src={require("../../assets/respira.png")} alt="product" />
+            <div className="product_info_des">
+              <h4>Respira</h4>
+              <h6>Outdoor bar table and stool</h6>
+              <div className="side_by_side">
+                <h5>Rp 500.000</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button className="show_more">Show More</button>
+      </section>
     </div>
   );
 };
