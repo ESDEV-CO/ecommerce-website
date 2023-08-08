@@ -7,6 +7,8 @@ import CartScreen from "../screen/CartScreen";
 import BlogScreen from "../screen/BlogScreen";
 import ChekOutScreen from "../screen/ChekOutScreen";
 import SinglePageScreen from "../screen/SinglePageScreen";
+import SideCartScreen from "../screen/SideCartScreen";
+import CompareProductScreen from "../screen/CompareProductScreen";
 
 function AppRoutes() {
   return (
@@ -15,10 +17,12 @@ function AppRoutes() {
         <Route path="/" element={<HomeScreen />} />
         <Route path="/shop" element={<ShopScreen />} />
         <Route path="/contact" element={<ContactScreen />} />
-        <Route path="/cart" element={<CartScreen />} />
+        <Route path="/sidecart" element={<SideCartScreen />} />
         <Route path="/blog" element={<BlogScreen />} />
         <Route path="/checkout" element={<ChekOutScreen />} />
         <Route path="/single" element={<SinglePageScreen />} />
+        <Route path="/cart" element={<CartScreen />} />
+        <Route path="/compare" element={<CompareProductScreen />} />
       </Routes>
     </>
   );

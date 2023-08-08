@@ -42,7 +42,7 @@ const Navbar = () => {
           <AiOutlineHeart />
         </button>
         <button>
-          <Link to="/cart">
+          <Link to="/sidecart">
             <AiOutlineShoppingCart />
           </Link>
         </button>
