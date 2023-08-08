@@ -133,6 +133,27 @@ p {
   padding: 1.5rem 3rem;
 }
 
-th {
-  padding: 1rem 0;
+.sidebar_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar_main {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
