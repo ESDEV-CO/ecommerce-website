@@ -27,6 +27,8 @@
     text-transform: uppercase;
 }
 
+@media (min-width:426px) {}
+
 @media (min-width:1024px) {
 
 

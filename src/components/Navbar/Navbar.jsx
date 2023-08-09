@@ -16,9 +16,11 @@ const Navbar = () => {
     <>
       <div className="navbar">
         <div className="navbar_logo">
-          <span className="logo_img">
-            <img src={require("../../assets/logo.png")} alt="logo" />
-          </span>
+          <img
+            className="logo_img"
+            src={require("../../assets/logo.png")}
+            alt="logo"
+          />
           <Link to="/" className="logo_name">
             Furniro
           </Link>
