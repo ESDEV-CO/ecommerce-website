@@ -4,11 +4,14 @@ import { FaRegUser } from "react-icons/fa";
 import { BsSearch } from "react-icons/bs";
 import { AiOutlineHeart } from "react-icons/ai";
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import { ImMenu } from "react-icons/im";
 import { Link } from "react-router-dom";
 import SideCart from "../SideCart/SideCart";
+import MobNav from "../MobNav/MobNav";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+  const [menu, setMenu] = useState(false);
   return (
     <>
       <div className="navbar">
@@ -48,8 +51,14 @@ const Navbar = () => {
             <AiOutlineShoppingCart />
           </button>
         </div>
+        <div className="nav_hamburger">
+          <button className="nav_menu_btn" onClick={() => setMenu(!menu)}>
+            <ImMenu />
+          </button>
+        </div>
       </div>
       <div className="toggle_sidebar">{toggle && <SideCart />}</div>
+      <div className="toggle_menu">{menu && <MobNav />}</div>
     </>
   );
 };

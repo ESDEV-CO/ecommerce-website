@@ -41,40 +41,48 @@ a {
 }
 
 h1 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  line-height: 4.0625rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: auto;
   color: var(--pri_clr);
 }
 
-h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #3A3A3A;
-}
+@media (min-width:1024px) {
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 4.0625rem;
+  }
 
-h3 {
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--sec_clr);
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #3A3A3A;
+  }
 
-}
+  h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--sec_clr);
 
-h4 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--sec_clr);
+  }
 
-}
+  h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--sec_clr);
 
-h5 {
-  font-size: 1.25rem;
-  font-weight: 600;
-}
+  }
 
-h6 {
-  font-size: 1rem;
-  font-weight: 500;
+  h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  h6 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
 }
 
 textarea:focus,
@@ -141,29 +149,3 @@ p {
 .rights {
   padding: 1.5rem 3rem;
 }
-
-/* 
-.sidebar_container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.sidebar_main {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 2;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.2);
-  z-index: 1;
-} */

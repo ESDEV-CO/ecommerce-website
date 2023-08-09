@@ -1,7 +1,8 @@
 .navbar {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 1.8125rem 3.375rem;
+    padding: 1.125rem 1.5rem;
 }
 
 .navbar_logo {
@@ -12,51 +13,92 @@
 }
 
 .logo_name {
-    font-size: 2.125rem;
-    font-weight: 700;
-    color: #000000;
-}
-
-.navbar_links {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-}
-
-.navbar_links li {
-    font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.navbar_links li:hover {
-    color: #B88E2F;
-    scale: 1.1;
-
-}
-
-.navbar_icons {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-}
-
-.navbar_icons button {
     font-size: 1.5rem;
+    font-weight: 600;
     color: #000000;
-    transition: 0.3s;
 }
 
-.navbar_icons button:hover {
-    color: #B88E2F;
-    scale: 1.05;
+.navbar_links,
+.navbar_icons {
+    display: none;
 }
 
-.toggle_sidebar {
+.nav_hamburger {
+    display: inline-block;
+}
+
+.nav_menu_btn {
+    font-size: 1.25rem;
+    color: #000000;
+
+}
+
+.toggle_menu {
     position: absolute;
-    top: 12%;
-    right: 0;
+    top: 37.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 999;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width:768px) {
+
+    .navbar {
+        padding: 1.8125rem 3.375rem;
+        gap: 1rem;
+    }
+
+    .logo_name {
+        font-size: 2.125rem;
+        font-weight: 700;
+    }
+
+    .navbar_links {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .navbar_links li {
+        font-size: 1rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .navbar_links li:hover {
+        color: #B88E2F;
+        scale: 1.1;
+
+    }
+
+    .navbar_icons {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .navbar_icons button {
+        font-size: 1.5rem;
+        color: #000000;
+        transition: 0.3s;
+    }
+
+    .navbar_icons button:hover {
+        color: #B88E2F;
+        scale: 1.05;
+    }
+
+    .toggle_sidebar {
+        position: absolute;
+        top: 12%;
+        right: 0;
+        z-index: 999;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .nav_hamburger {
+        display: none;
+    }
 }
