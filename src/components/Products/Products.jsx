@@ -110,23 +110,39 @@ const Products = () => {
         </div> */}
         {ProductsData.map((itm) => {
           return (
-            <Link
-              to={"/single"}
-              onClick={() => window.scrollTo(100, 100)}
-              className="product_info new"
-            >
-              <img src={itm?.image} alt="product" />
-              <div className="product_info_des">
-                <h4>{itm?.name}</h4>
-                <h6>{itm?.description}</h6>
-                <div className="side_by_side">
-                  <h5>{itm?.full_price}</h5>
-                  <s className={`${itm?.discount_price ? "sale50" : "new"}`}>
-                    {itm?.discount_price}
-                  </s>
+            <div className="product_container">
+              <div className="product_info">
+                <img src={itm?.image} alt="product" />
+                <div className="product_info_des">
+                  <h4>{itm?.name}</h4>
+                  <h6>{itm?.description}</h6>
+                  <div className="side_by_side">
+                    <h5>{itm?.full_price}</h5>
+                    <s className={`${itm?.discount_price ? "sale50" : "new"}`}>
+                      {itm?.discount_price}
+                    </s>
+                  </div>
                 </div>
               </div>
-            </Link>
+              <Link
+                to={"/single"}
+                onClick={() => window.scrollTo(0, 0)}
+                className="product_info_cart"
+              >
+                <button>Add to cart</button>
+                <div className="info_cart_btn">
+                  <span>
+                    <BiSolidShareAlt /> Share
+                  </span>
+                  <Link to={"/compare"}>
+                    <MdOutlineCompareArrows /> Compare
+                  </Link>
+                  <span>
+                    <AiFillHeart /> Like
+                  </span>
+                </div>
+              </Link>
+            </div>
           );
         })}
       </div>

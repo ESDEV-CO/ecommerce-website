@@ -17,22 +17,22 @@ const Footer = () => {
         <ul className="footer_links">
           <h6>Links</h6>
           <li>
-            <Link to="/" onClick={() => window.scroll(100, 100)}>
+            <Link to="/" onClick={() => window.scroll(0, 0)}>
               Home
             </Link>
           </li>
           <li>
-            <Link to="/shop" onClick={() => window.scroll(100, 100)}>
+            <Link to="/shop" onClick={() => window.scroll(0, 0)}>
               Shop
             </Link>
           </li>
           <li>
-            <Link to="/blog" onClick={() => window.scroll(100, 100)}>
+            <Link to="/blog" onClick={() => window.scroll(0, 0)}>
               Blog
             </Link>
           </li>
           <li>
-            <Link to="/contact" onClick={() => window.scroll(100, 100)}>
+            <Link to="/contact" onClick={() => window.scroll(0, 0)}>
               Contact
             </Link>
           </li>
@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <button className="arrow_btn" onClick={() => window.scroll(100, 100)}>
+      <button className="arrow_btn" onClick={() => window.scroll(0, 0)}>
         <FaArrowUpLong />
       </button>
     </div>
