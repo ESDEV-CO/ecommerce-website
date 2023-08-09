@@ -37,7 +37,7 @@ const Footer = () => {
             </Link>
           </li>
         </ul>
-        <ul className="footer_links">
+        <ul className="footer_links2">
           <h6>Help</h6>
           <li>Payment Options</li>
           <li>Returns</li>

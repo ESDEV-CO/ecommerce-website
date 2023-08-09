@@ -1,49 +1,37 @@
 .footer {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 2rem 3rem;
+    padding: 1rem;
     position: relative;
 }
 
-.footer_logo {
-    display: flex;
-    flex-direction: column;
-    flex: 4;
-}
-
-.footer_logo p {
-    margin-top: 3rem;
-    color: #9F9F9F;
-    font-weight: 400;
+.footer_links2,
+.arrow_btn,
+.footer_links>h6 {
+    display: none;
 }
 
 .footer_nav {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    flex: 6;
-    margin-right: 5rem;
+    gap: 1rem;
+    margin-right: 2rem;
+
 }
 
 .footer_links {
     display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
 }
 
 .footer_links li {
-    font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.footer_links li:hover {
-    color: #B88E2F;
-}
-
-.footer_links>h6 {
-    color: #9F9F9F;
-    margin-bottom: 0.5rem;
+    font-size: 0.5rem;
+    font-weight: 400;
+    border-bottom: 1px solid #B88E2F;
 }
 
 .email_sub {
@@ -52,31 +40,178 @@
 }
 
 .email_sub input {
-    font-size: 0.875rem;
+    font-size: 0.45rem;
     padding-right: 1rem;
-    border-bottom: 1px solid black;
+    padding-bottom: 0.15rem;
+    border-bottom: 1px solid #B88E2F;
 }
 
 .email_btn {
-    font-size: 0.875rem;
-    font-weight: 500;
+    font-size: 0.45rem;
+    font-weight: 400;
     color: #000000;
     text-transform: uppercase;
-    border-bottom: 1px solid black;
-    transition: 0.3s;
+    border-bottom: 1px solid #B88E2F;
 }
 
-.email_btn:hover {
-    color: #B88E2F;
+@media (min-width:768px) {
+    .footer {
+        padding: 1.5rem;
+        gap: 2rem;
+    }
+
+    .footer_logo {
+        display: flex;
+        flex-direction: column;
+        flex: 4;
+    }
+
+    .footer_logo p {
+        margin-top: 3rem;
+        color: #9F9F9F;
+        font-weight: 400;
+    }
+
+    .footer_nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex: 6;
+        margin-right: 2rem;
+    }
+
+    .footer_links,
+    .footer_links2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 1rem;
+    }
+
+    .footer_links li,
+    .footer_links2 li {
+        font-size: 0.65rem;
+        font-weight: 500;
+        border-bottom: none;
+    }
+
+    .footer_links>h6,
+    .footer_links2>h6 {
+        display: block;
+        color: #9F9F9F;
+        margin-bottom: 0.5rem;
+        font-size: 0.65rem;
+    }
+
+    .email_sub {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .email_sub input {
+        font-size: 0.5rem;
+        padding-right: 1rem;
+        border-bottom: 1px solid black;
+    }
+
+    .email_btn {
+        font-size: 0.5rem;
+        font-weight: 500;
+        color: #000000;
+        text-transform: uppercase;
+        border-bottom: 1px solid black;
+    }
+
 }
 
-.arrow_btn {
-    position: absolute;
-    background: #B88E2F;
-    color: white;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    left: 92%;
-    top: 60%;
+@media (min-width:1024px) {
+    .footer {
+        padding: 2rem 3rem;
+    }
+
+    .footer_logo {
+        display: flex;
+        flex-direction: column;
+        flex: 4;
+    }
+
+    .footer_logo p {
+        margin-top: 3rem;
+        color: #9F9F9F;
+        font-weight: 400;
+    }
+
+    .footer_nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex: 6;
+        margin-right: 4rem;
+        gap: 1rem;
+    }
+
+    .footer_links,
+    .footer_links2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 1.5rem;
+    }
+
+    .footer_links li,
+    .footer_links2 li {
+        font-size: 1rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: 0.3s;
+        border-bottom: none;
+    }
+
+    .footer_links li:hover {
+        color: #B88E2F;
+    }
+
+    .footer_links>h6,
+    .footer_links2>h6 {
+        display: block;
+        color: #9F9F9F;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .email_sub {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .email_sub input {
+        font-size: 0.875rem;
+        padding-right: 1rem;
+        border-bottom: 1px solid black;
+    }
+
+    .email_btn {
+        font-size: 0.875rem;
+        font-weight: 500;
+        color: #000000;
+        text-transform: uppercase;
+        border-bottom: 1px solid black;
+        transition: 0.3s;
+    }
+
+    .email_btn:hover {
+        color: #B88E2F;
+    }
+
+    .arrow_btn {
+        display: inline-block;
+        position: absolute;
+        background: #B88E2F;
+        color: white;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        left: 92%;
+        top: 60%;
+    }
 }

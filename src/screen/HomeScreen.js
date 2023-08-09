@@ -8,12 +8,12 @@ function HomeScreen() {
     <div className="store_container">
       <Navbar />
       <Home />
-      {/* <div className="footer_wrapper">
+      <div className="footer_wrapper">
         <Footer />
       </div>
       <div className="rights">
         <h6>2023 furino. All rights reserved</h6>
-      </div> */}
+      </div>
     </div>
   );
 }

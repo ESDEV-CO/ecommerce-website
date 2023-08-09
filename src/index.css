@@ -83,6 +83,10 @@ p {
   color: #616161;
 }
 
+.rights {
+  padding: 1rem;
+}
+
 @media (min-width:426px) {
   h1 {
     font-size: 1rem;
@@ -147,6 +151,10 @@ p {
     font-size: 0.95rem;
     line-height: 100%;
   }
+
+  .rights {
+    padding: 1.5rem 3rem;
+  }
 }
 
 @media (min-width:1280px) {
@@ -187,6 +195,8 @@ p {
     font-weight: 500;
     line-height: 150%;
   }
+
+
 }
 
 textarea:focus,
@@ -241,8 +251,4 @@ Link:hover {
   bottom: 0;
   width: 80%;
   left: 10%;
-}
-
-.rights {
-  padding: 1.5rem 3rem;
 }
