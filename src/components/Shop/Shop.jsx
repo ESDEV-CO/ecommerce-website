@@ -4,6 +4,7 @@ import { BiSolidShareAlt } from "react-icons/bi";
 import { MdOutlineCompareArrows } from "react-icons/md";
 import { AiFillHeart } from "react-icons/ai";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Shop = () => {
   return (
@@ -47,7 +48,7 @@ const Shop = () => {
       </section>
       <section className="shop_products">
         <div className="all_products mt_0">
-          <div className="product_info">
+          <Link to={"/single"} className="product_info">
             <img src={require("../../assets/sylthe.png")} alt="product" />
             <div className="product_info_des">
               <h4>Syltherine</h4>
@@ -57,7 +58,7 @@ const Shop = () => {
                 <s className="sale30">Rp 3.500.000</s>
               </div>
             </div>
-          </div>
+          </Link>
           <div className="product_info">
             <img src={require("../../assets/leviosa.png")} alt="product" />
             <div className="product_info_des">

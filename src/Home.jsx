@@ -10,8 +10,8 @@ const Home = () => {
     <div className="home_page">
       <Hero />
       <Category />
-      {/* <Products />
-            <Carousel />
+      <Products />
+      {/* <Carousel />
             <Share /> */}
     </div>
   );

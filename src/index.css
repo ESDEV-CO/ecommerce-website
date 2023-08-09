@@ -46,11 +46,11 @@ h1 {
   color: var(--pri_clr);
 }
 
-/* h2 {
-  font-size: 1.25rem;
+h2 {
+  font-size: 0.75rem;
   font-weight: 600;
   color: #3A3A3A;
-} */
+}
 
 h3 {
   font-size: 0.65rem;
@@ -60,19 +60,20 @@ h3 {
 }
 
 h4 {
-  font-size: 0.5rem;
+  font-size: 0.85rem;
   font-weight: 600;
-  color: var(--sec_clr);
+  color: #3A3A3A;
 
 }
 
-/* h5 {
-  font-size: 1rem;
+h5 {
+  font-size: 0.5rem;
   font-weight: 600;
-} */
+  color: var(--sec_clr);
+}
 
 h6 {
-  font-size: 0.45rem;
+  font-size: 0.5rem;
   font-weight: 400;
 }
 
@@ -94,12 +95,21 @@ p {
     line-height: 1rem;
   }
 
+  h2 {
+    font-size: 0.95rem;
+  }
+
   h3 {
     font-size: 0.85rem;
 
   }
 
   h4 {
+    font-size: 0.75rem;
+
+  }
+
+  h5 {
     font-size: 0.65rem;
 
   }
@@ -122,12 +132,21 @@ p {
     line-height: 1.25rem;
   }
 
+  h2 {
+    font-size: 1.125rem;
+  }
+
   h3 {
     font-size: 1rem;
 
   }
 
   h4 {
+    font-size: 0.95rem;
+
+  }
+
+  h5 {
     font-size: 0.85rem;
 
   }
@@ -147,12 +166,21 @@ p {
     line-height: 1.5rem;
   }
 
+  h2 {
+    font-size: 1.35rem;
+  }
+
   h3 {
     font-size: 1.25rem;
 
   }
 
   h4 {
+    font-size: 1.15rem;
+
+  }
+
+  h5 {
     font-size: 1rem;
 
   }
@@ -171,6 +199,10 @@ p {
   h1 {
     font-size: 2.5rem;
     line-height: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
   }
 
   h3 {
