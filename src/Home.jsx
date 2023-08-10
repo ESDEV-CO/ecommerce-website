@@ -12,7 +12,7 @@ const Home = () => {
       <Category />
       <Products />
       <Carousel />
-      {/* <Share /> */}
+      <Share />
     </div>
   );
 };

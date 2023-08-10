@@ -9,25 +9,55 @@ const Share = () => {
       <div className="share_images">
         <div className="column1">
           <div className="first_child">
-            <img src={require("../../assets/share1.png")} alt="" />
-            <img src={require("../../assets/share2.png")} alt="" />
+            <img
+              className="hidden_img"
+              src={require("../../assets/share1.png")}
+              alt=""
+            />
+            <img
+              src={require("../../assets/share2.png")}
+              alt="shared feedback"
+            />
           </div>
           <div className="second_child">
-            <img src={require("../../assets/share6.png")} alt="" />
-            <img src={require("../../assets/share7.png")} alt="" />
+            <img
+              className="hidden_img"
+              src={require("../../assets/share6.png")}
+              alt="shared feedback"
+            />
+            <img
+              src={require("../../assets/share7.png")}
+              alt="shared feedback"
+            />
           </div>
         </div>
         <div className="column2">
-          <img src={require("../../assets/share3.png")} alt="" />
+          <img
+            className="hidden_img"
+            src={require("../../assets/share3.png")}
+            alt="shared feedback"
+          />
         </div>
         <div className="column1">
           <div className="first_child">
-            <img src={require("../../assets/share4.png")} alt="" />
-            <img src={require("../../assets/share5.png")} alt="" />
+            <img
+              src={require("../../assets/share4.png")}
+              alt="shared feedback"
+            />
+            <img
+              src={require("../../assets/share5.png")}
+              alt="shared feedback"
+            />
           </div>
           <div className="second_child">
-            <img src={require("../../assets/share8.png")} alt="" />
-            <img src={require("../../assets/share9.png")} alt="" />
+            <img
+              src={require("../../assets/share8.png")}
+              alt="shared feedback"
+            />
+            <img
+              src={require("../../assets/share9.png")}
+              alt="shared feedback"
+            />
           </div>
         </div>
       </div>
