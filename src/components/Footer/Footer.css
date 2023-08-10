@@ -1,7 +1,7 @@
 .footer {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 1rem;
     position: relative;
 }
@@ -16,20 +16,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 1rem;
-    margin-right: 2rem;
+    gap: 0.5rem;
+    /* margin-right: 2rem; */
 
 }
 
 .footer_links {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 1rem;
 }
 
 .footer_links li {
-    font-size: 0.5rem;
+    font-size: 0.4rem;
     font-weight: 400;
     border-bottom: 1px solid #B88E2F;
 }
@@ -40,18 +40,39 @@
 }
 
 .email_sub input {
-    font-size: 0.45rem;
-    padding-right: 1rem;
+    font-size: 0.4rem;
+    padding-right: 0.25rem;
     padding-bottom: 0.15rem;
     border-bottom: 1px solid #B88E2F;
 }
 
 .email_btn {
-    font-size: 0.45rem;
+    font-size: 0.4rem;
     font-weight: 400;
     color: #000000;
     text-transform: uppercase;
     border-bottom: 1px solid #B88E2F;
+}
+
+@media (width<319px) {
+    .email_sub {
+        display: none;
+    }
+
+    .footer_links {
+        gap: 0.25rem;
+        flex-wrap: wrap;
+
+    }
+}
+
+@media (min-width:640px) {
+
+    .footer_links li,
+    .email_sub input,
+    .email_btn {
+        font-size: 0.5rem;
+    }
 }
 
 @media (min-width:768px) {
