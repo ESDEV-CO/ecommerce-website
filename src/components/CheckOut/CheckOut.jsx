@@ -23,9 +23,9 @@ const CheckOut = () => {
         </div>
       </section>
       <section className="checkout_data">
-        <div className="contact_data_form">
+        <div className="checkout_data_form">
           <h3>Billing Details</h3>
-          <form className="contact_data_form" onSubmit={handleSubmit}>
+          <form className="checkout_data_form" onSubmit={handleSubmit}>
             <div className="user_name ">
               <label className="form_label width_50">
                 First Name
@@ -75,7 +75,7 @@ const CheckOut = () => {
             </label>
           </form>
         </div>
-        <div className="contact_data_info">
+        <div className="checkout_data_info">
           <div className="data_info_first_child">
             <span className="info_heading">
               <h4>Product</h4>

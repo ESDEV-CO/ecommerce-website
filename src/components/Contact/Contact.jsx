@@ -71,20 +71,28 @@ const Contact = () => {
           <form className="contact_data_form" onSubmit={handleSubmit}>
             <label className="form_label">
               Your name
-              <input type="text" placeholder="Abc" />
+              <input className="input_simple" type="text" placeholder="Abc" />
             </label>
             <label className="form_label">
               Email Address
-              <input type="email" placeholder="Abc@def.com" />
+              <input
+                className="input_simple"
+                type="email"
+                placeholder="Abc@def.com"
+              />
             </label>
             <label className="form_label">
               Subject
-              <input type="text" placeholder="This is Optional" />
+              <input
+                className="input_simple"
+                type="text"
+                placeholder="This is Optional"
+              />
             </label>
             <label className="form_label">
               Message
               <input
-                style={{ height: "7.5rem", paddingBottom: "2.75rem" }}
+                className="input_simple input_para"
                 type="text"
                 placeholder="Hi! i'd like to ask about"
               />
