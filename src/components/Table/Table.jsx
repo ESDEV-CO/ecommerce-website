@@ -8,15 +8,27 @@ const Table = () => {
       <tbody>
         <tr className="first_row">
           <th></th>
-          <th scope="col">Product</th>
-          <th scope="col">Price</th>
-          <th scope="col">Quantity</th>
-          <th scope="col">Subtotal</th>
+          <th className="checkout_heading" scope="col">
+            Product
+          </th>
+          <th className="checkout_heading" scope="col">
+            Price
+          </th>
+          <th className="checkout_heading" scope="col">
+            Quantity
+          </th>
+          <th className="checkout_heading" scope="col">
+            Subtotal
+          </th>
           <th></th>
         </tr>
         <tr className="second_row">
-          <td className="table_img">
-            <img src={require("../../assets/table1.png")} alt="sofa" />
+          <td className="img_container">
+            <img
+              className="table_img"
+              src={require("../../assets/table1.png")}
+              alt="sofa"
+            />
           </td>
           <td className="light_clr">Asgaard sofa</td>
           <td className="light_clr">250,000.00</td>

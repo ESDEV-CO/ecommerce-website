@@ -1,3 +1,7 @@
+.checkout {
+    overflow-x: hidden;
+}
+
 .checkout_data {
     padding: 4rem 5rem;
 }

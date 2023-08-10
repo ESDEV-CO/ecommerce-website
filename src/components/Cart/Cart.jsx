@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Cart = () => {
   return (
-    <div>
+    <div className="cart">
       <section className="contact_header">
         <div className="header_bg">
           <img src={require("../../assets/page_bg.png")} alt="page bg" />

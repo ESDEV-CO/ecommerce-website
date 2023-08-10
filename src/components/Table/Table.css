@@ -4,7 +4,7 @@
 }
 
 .table_img {
-    width: 7rem;
+    width: 2rem;
 }
 
 .first_row {
@@ -14,9 +14,16 @@
     font-weight: 500;
 }
 
+.img_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 td {
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 0.35rem;
+    font-size: 0.5rem;
 }
 
 .light_clr {
@@ -33,30 +40,139 @@ td {
 .col_btn h6 {
     border: 1px solid #9F9F9F;
     border-radius: 5px;
-    width: 2rem;
-    height: 2rem;
     display: grid;
     place-items: center;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 0.5rem;
+    padding: 0.1rem 0.35rem;
 }
 
 .col_total {
-    font-size: 1rem;
+    font-size: .5rem;
     font-weight: 500;
 }
 
 .col_delete {
     color: #B88E2F;
-    font-size: 1.75rem;
+    font-size: 0.65rem;
 }
 
 .second_row {
     margin-top: 10rem;
 }
 
-th {
-    padding: 1rem 0;
+.checkout_heading {
+    padding: 0.5rem 0;
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+@media (min-width:640px) {
+    .col_total {
+        font-size: .65rem;
+    }
+
+    .col_btn h6 {
+        font-size: 0.65rem;
+        padding: 0.15rem 0.45rem;
+
+    }
+
+    td {
+        font-size: 0.65rem;
+    }
+
+    .checkout_heading {
+        padding: 0.75rem 0;
+        font-size: 0.75rem;
+    }
+}
+
+@media (min-width:768px) {
+    .col_total {
+        font-size: .75rem;
+    }
+
+    .col_btn h6 {
+        font-size: 0.75rem;
+        padding: 0.15rem 0.5rem;
+
+    }
+
+    td {
+        font-size: 0.75rem;
+    }
+
+    .checkout_heading {
+        padding: 0.85rem 0;
+        font-size: 0.85rem;
+    }
+}
+
+@media (min-width:1024px) {
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .table_img {
+        width: 7rem;
+    }
+
+    .first_row {
+        background-color: #F9F1E7;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    td {
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .light_clr {
+        color: #9F9F9F;
+
+    }
+
+    .col_btn {
+        position: relative;
+        padding-top: 2rem;
+
+    }
+
+    .col_btn h6 {
+        border: 1px solid #9F9F9F;
+        border-radius: 5px;
+        width: 2rem;
+        height: 2rem;
+        display: grid;
+        place-items: center;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .col_total {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .col_delete {
+        color: #B88E2F;
+        font-size: 1.75rem;
+    }
+
+    .second_row {
+        margin-top: 10rem;
+    }
+
+    th {
+        padding: 1rem 0;
+    }
 }

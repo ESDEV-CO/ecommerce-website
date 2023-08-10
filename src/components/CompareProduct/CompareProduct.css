@@ -86,12 +86,12 @@
     margin-inline: 2rem;
 }
 
-th,
+/* th,
 td {
     padding-left: 2rem;
     width: 20%;
     text-align: left;
-}
+} */
 
 .table_data {
     padding-top: 1.5rem;
