@@ -4,6 +4,9 @@ import { BiSolidShareAlt } from "react-icons/bi";
 import { MdOutlineCompareArrows } from "react-icons/md";
 import { AiFillHeart } from "react-icons/ai";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { MdFilterList } from "react-icons/md";
+import { BsFillGridFill } from "react-icons/bs";
+import { MdSplitscreen } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 const Shop = () => {
@@ -14,20 +17,26 @@ const Shop = () => {
         <span>
           Home <MdOutlineKeyboardArrowRight /> <span>Shop</span>
         </span>
-        <img src={require("../../assets/product_bg.png")} alt="" />
-
+        <img
+          className="shop_header_bg"
+          src={require("../../assets/product_bg.png")}
+          alt=""
+        />
         <div className="header_filter">
           <div className="filter_child">
             <div className="filter_grandchild1">
-              <span>
-                <img src={require("../../assets/filter.png")} alt="" />
+              <span className="filter_logo">
+                {/* <img src={require("../../assets/filter.png")} alt="" /> */}
+                <MdFilterList />
                 Filter
               </span>
-              <span>
-                <img src={require("../../assets/round_icon.png")} alt="" />
+              <span className="filter_logo">
+                {/* <img src={require("../../assets/round_icon.png")} alt="" /> */}
+                <BsFillGridFill />
               </span>
-              <span>
-                <img src={require("../../assets/list_icon.png")} alt="" />
+              <span className="filter_logo">
+                {/* <img src={require("../../assets/list_icon.png")} alt="" /> */}
+                <MdSplitscreen />
               </span>
             </div>
             <div className="filter_grandchild2">
