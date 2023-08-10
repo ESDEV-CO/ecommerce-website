@@ -14,7 +14,6 @@
 .shop_header h2 {
     font-size: 1.25rem;
     font-weight: 500;
-    margin-top: 1rem;
     color: #000000;
 }
 
@@ -47,7 +46,7 @@
     position: absolute;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     height: 25%;
     top: 50%;
@@ -100,23 +99,74 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
-    padding: 2rem 0;
+    gap: 1rem;
+    padding: 1rem 0;
 }
 
 .product_btn {
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 0.75rem;
     background: #F9F1E7;
     border-radius: 5px;
-    font-size: 1.25rem;
+    font-size: 0.5rem;
 }
 
 .product_btn_active {
-    padding: 1rem 1.5rem;
     background: #B88E2F;
-    border-radius: 5px;
     color: white;
-    font-size: 1.25rem;
+}
+
+@media (min-width:640px) {
+    .product_btn {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.65rem;
+    }
+
+    .filter_btn {
+        font-size: 0.75rem;
+        padding: 0.45rem;
+    }
+
+    .right_padding {
+        padding-right: 1.25rem;
+    }
+
+    .shop_header span {
+        font-size: 0.75rem;
+    }
+
+    .shop_header span span {
+        font-size: 0.65rem;
+    }
+}
+
+@media (min-width:768px) {
+
+    .shop_header h2 {
+        font-size: 1.5rem;
+
+    }
+
+    .shop_header span {
+        font-size: 0.85rem;
+    }
+
+    .shop_header span span {
+        font-size: 0.75rem;
+    }
+
+    .product_btn {
+        padding: 0.6rem 0.85rem;
+        font-size: 0.85rem;
+    }
+
+    .filter_btn {
+        font-size: 0.85rem;
+        padding: 0.5rem;
+    }
+
+    .right_padding {
+        padding-right: 1.5rem;
+    }
 }
 
 @media (min-width:1024px) {
@@ -133,23 +183,15 @@
     }
 
     .shop_header h2 {
-        font-size: 3rem;
-        font-weight: 500;
-        margin-top: 2rem;
-        color: #000000;
+        font-size: 2rem;
     }
 
     .shop_header span {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.25rem;
-        font-weight: 500;
+        font-size: 1rem;
     }
 
     .shop_header span span {
-        font-weight: 400;
-        opacity: 0.9;
+        font-size: 0.85rem;
     }
 
 
@@ -160,43 +202,8 @@
         object-fit: cover;
     }
 
-    .shop_products {
-        padding: 1rem 15rem;
-    }
-
     .header_filter {
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-        height: 6.25rem;
-        top: 50%;
-        background: #F9F1E7;
-        padding: 0.5rem 10rem;
-    }
-
-    .filter_child {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 1rem;
-    }
-
-    .filter_grandchild1 {
-        display: flex;
-        gap: 1rem;
-    }
-
-    .filter_grandchild11 {
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
-    }
-
-    .filter_grandchild2 {
-        border-left: 1px solid black;
-        padding-left: 1rem;
+        top: 55%;
     }
 
     .filter_btn {
