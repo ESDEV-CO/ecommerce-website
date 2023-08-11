@@ -56,28 +56,30 @@ const SinglePage = () => {
           </p>
           <h6>Size</h6>
           <div className="single_size_btn">
-            <button className="product_btn_active size_btn">L</button>
+            <button className="product_btn_active product_btn size_btn">
+              L
+            </button>
             <button className="product_btn size_btn">XL</button>
             <button className="product_btn size_btn">XS</button>
           </div>
           <h6>Color</h6>
           <div className="single_clr_btn">
-            <button style={{ color: "#816DFA", fontSize: "1.5rem" }}>
+            <button className="choose_clr" style={{ color: "#816DFA" }}>
               <BsFillCircleFill />
             </button>
-            <button style={{ color: "black", fontSize: "1.5rem" }}>
+            <button className="choose_clr" style={{ color: "black" }}>
               <BsFillCircleFill />
             </button>
-            <button style={{ color: "#B88E2F", fontSize: "1.5rem" }}>
+            <button className="choose_clr" style={{ color: "#B88E2F" }}>
               <BsFillCircleFill />
             </button>
           </div>
           <div className="single_addtocart">
-            <button className="card_btn plus_minus">
+            <button className=" single_btn plus_minus">
               <span>-</span> 1<span>+</span>
             </button>
-            <button className="card_btn">Add to Cart</button>
-            <button className="card_btn">+ Compare</button>
+            <button className=" single_btn">Add to Cart</button>
+            <button className=" single_btn">+ Compare</button>
           </div>
         </div>
       </section>
@@ -123,7 +125,7 @@ const SinglePage = () => {
         </div>
       </section>
       <section className="related_products">
-        <h3>Related Products</h3>
+        <h2>Related Products</h2>
         <div className="related_wrapper">
           <div className="product_info">
             <img src={require("../../assets/sylthe.png")} alt="product" />
