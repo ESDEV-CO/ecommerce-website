@@ -25,20 +25,20 @@ const CheckOut = () => {
       <section className="checkout_data">
         <div className="checkout_data_form">
           <h3>Billing Details</h3>
-          <form className="checkout_data_form" onSubmit={handleSubmit}>
+          <form className="checkout_form" onSubmit={handleSubmit}>
             <div className="user_name ">
-              <label className="form_label width_50">
+              <label className="form_label ">
                 First Name
-                <input type="text" />
+                <input className="checkout_input width_50" type="text" />
               </label>
               <label className="form_label width_50">
                 Last Name
-                <input type="text" />
+                <input className="checkout_input width_50" type="text" />
               </label>
             </div>
             <label className="form_label">
               Company Name (Optional)
-              <input type="text" />
+              <input className="checkout_input" type="text" />
             </label>
             <label className="form_label">
               Country / Region
@@ -49,7 +49,7 @@ const CheckOut = () => {
             </label>
             <label className="form_label">
               Town / City
-              <input type="text" />
+              <input className="checkout_input" type="text" />
             </label>
             <label className="form_label">
               Province
@@ -60,18 +60,23 @@ const CheckOut = () => {
             </label>
             <label className="form_label">
               Zip code
-              <input type="text" />
+              <input className="checkout_input" type="text" />
             </label>
             <label className="form_label">
               Phone
-              <input type="text" />
+              <input className="checkout_input" type="text" />
             </label>
             <label className="form_label">
               Email Address
-              <input type="email" />
+              <input className="checkout_input" type="email" />
             </label>
             <label className="form_label">
-              <input type="text" placeholder="Additional Information" />
+              Optional
+              <input
+                className="checkout_input"
+                type="text"
+                placeholder="Additional Information"
+              />
             </label>
           </form>
         </div>
@@ -106,10 +111,6 @@ const CheckOut = () => {
               Order ID as the payment reference. Your order will not be shipped
               until the funds have cleared in our account.
             </p>
-            <span className="payment_method opacity">
-              <IoMdRadioButtonOff />
-              <h6>Direct Bank Transfer</h6>
-            </span>
             <span className="payment_method opacity">
               <IoMdRadioButtonOff />
               <h6>Cash On Delivery</h6>
