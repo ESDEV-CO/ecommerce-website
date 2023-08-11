@@ -24,38 +24,38 @@ const CompareProduct = () => {
         <div className="comparison_heading">
           <div className="com_heading_child">
             <h3>Go to Product page for more Products</h3>
-            <button className="view_more"> View More</button>
+            <button className="read_more"> View More</button>
           </div>
-          <div className="com_heading_child">
+          <div className="com_heading_child align_top">
             <img src={require("../../assets/compare1.png")} alt="compare1" />
             <h4>Asgaard Sofa</h4>
             <h5>Rs. 250,000.00</h5>
             <div className="user_review">
-              <span className="rating">4.7</span>
-              <span className="stars">
+              <h6 className="rating">4.7</h6>
+              <span className="compare_stars  ">
                 <BsStarFill />
                 <BsStarFill />
                 <BsStarFill />
                 <BsStarFill />
                 <BsStarHalf />
               </span>
-              <span className="customer_review"> 204 Review</span>
+              <span className="customer_review compare_review">204 Review</span>
             </div>
           </div>
-          <div className="com_heading_child">
+          <div className="com_heading_child align_top">
             <img src={require("../../assets/compare2.png")} alt="compare2" />
             <h4>Outdoor Sofa Set</h4>
             <h5>Rs. 224,000.00</h5>
             <div className="user_review">
-              <span className="rating">4.2</span>
-              <span className="stars">
+              <h6 className="rating">4.2</h6>
+              <span className="compare_stars">
                 <BsStarFill />
                 <BsStarFill />
                 <BsStarFill />
                 <BsStarFill />
                 <BsStarHalf />
               </span>
-              <span className="customer_review"> 145 Review</span>
+              <span className="customer_review compare_review">145 Review</span>
             </div>
           </div>
           <div className="com_heading_child3">
