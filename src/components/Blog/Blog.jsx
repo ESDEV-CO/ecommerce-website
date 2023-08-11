@@ -114,7 +114,7 @@ const Blog = () => {
             <button className="read_more">Read more</button>
           </div>
           <div className="shop_products_btns ">
-            <button className="product_btn_active ">1</button>
+            <button className="product_btn product_btn_active ">1</button>
             <button className="product_btn">2</button>
             <button className="product_btn">3</button>
             <button className="product_btn">Next</button>
