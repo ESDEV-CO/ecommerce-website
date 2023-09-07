@@ -8,6 +8,7 @@ import { GiCheckboxTree } from "react-icons/gi";
 import { BsFillGridFill } from "react-icons/bs";
 import { MdSplitscreen } from "react-icons/md";
 import { Link } from "react-router-dom";
+import Support from "../Support/Support";
 
 const Shop = () => {
   return (
@@ -247,6 +248,7 @@ const Shop = () => {
           <button className="product_btn">Next</button>
         </div>
       </section>
+      <Support />
     </div>
   );
 };

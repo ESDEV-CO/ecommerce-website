@@ -3,6 +3,7 @@ import "./CheckOut.css";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { IoIosRadioButtonOn } from "react-icons/io";
 import { IoMdRadioButtonOff } from "react-icons/io";
+import Support from "../Support/Support";
 
 const CheckOut = () => {
   const handleSubmit = (event) => {
@@ -124,6 +125,7 @@ const CheckOut = () => {
           </div>
         </div>
       </section>
+      <Support />
     </div>
   );
 };

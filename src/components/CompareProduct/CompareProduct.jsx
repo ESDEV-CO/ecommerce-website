@@ -4,6 +4,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { BsStarFill } from "react-icons/bs";
 import { BsStarHalf } from "react-icons/bs";
 import { AiOutlineDown } from "react-icons/ai";
+import Support from "../Support/Support";
 
 const CompareProduct = () => {
   return (
@@ -427,6 +428,7 @@ const CompareProduct = () => {
           </table> */}
         </div>
       </section>
+      <Support />
     </div>
   );
 };

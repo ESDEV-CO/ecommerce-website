@@ -3,6 +3,7 @@ import "./Cart.css";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import Table from "../Table/Table";
 import { Link } from "react-router-dom";
+import Support from "../Support/Support";
 
 const Cart = () => {
   return (
@@ -38,6 +39,7 @@ const Cart = () => {
           </Link>
         </div>
       </section>
+      <Support />
     </div>
   );
 };

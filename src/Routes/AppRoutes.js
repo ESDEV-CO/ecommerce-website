@@ -1,26 +1,29 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import HomeScreen from "../screen/HomeScreen";
-import ShopScreen from "../screen/ShopScreen";
-import ContactScreen from "../screen/ContactScreen";
-import CartScreen from "../screen/CartScreen";
-import BlogScreen from "../screen/BlogScreen";
-import ChekOutScreen from "../screen/ChekOutScreen";
-import SinglePageScreen from "../screen/SinglePageScreen";
-import CompareProductScreen from "../screen/CompareProductScreen";
+import HomePage from "../screen/HomePage";
+import Home from "../Home";
+import Shop from "../components/Shop/Shop";
+import Contact from "../components/Contact/Contact";
+import Blog from "../components/Blog/Blog";
+import CheckOut from "../components/CheckOut/CheckOut";
+import SinglePage from "../components/SinglePage/SinglePage";
+import Cart from "../components/Cart/Cart";
+import CompareProduct from "../components/CompareProduct/CompareProduct";
 
 function AppRoutes() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<HomeScreen />} />
-        <Route path="/shop" element={<ShopScreen />} />
-        <Route path="/contact" element={<ContactScreen />} />
-        <Route path="/blog" element={<BlogScreen />} />
-        <Route path="/checkout" element={<ChekOutScreen />} />
-        <Route path="/single" element={<SinglePageScreen />} />
-        <Route path="/cart" element={<CartScreen />} />
-        <Route path="/compare" element={<CompareProductScreen />} />
+        <Route path="/" element={<HomePage />} >
+          <Route index element={<Home />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/checkout" element={<CheckOut />} />
+          <Route path="/single" element={<SinglePage />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/compare" element={<CompareProduct />} />
+        </Route>
       </Routes>
     </>
   );

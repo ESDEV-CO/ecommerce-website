@@ -4,6 +4,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { BsFillClockFill } from "react-icons/bs";
+import Support from "../Support/Support";
 
 const Contact = () => {
   const handleSubmit = (event) => {
@@ -103,6 +104,7 @@ const Contact = () => {
           </form>
         </div>
       </section>
+      <Support />
     </div>
   );
 };

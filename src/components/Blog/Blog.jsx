@@ -5,6 +5,7 @@ import { BiSolidUser } from "react-icons/bi";
 import { BsFillCalendarFill } from "react-icons/bs";
 import { BsFillTagFill } from "react-icons/bs";
 import { BiSearch } from "react-icons/bi";
+import Support from "../Support/Support";
 
 const Blog = () => {
   return (
@@ -187,6 +188,7 @@ const Blog = () => {
           </div>
         </div>
       </section>
+      <Support />
     </div>
   );
 };

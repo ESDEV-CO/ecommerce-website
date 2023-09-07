@@ -7,6 +7,7 @@ import { BsFillCircleFill } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import { AiFillTwitterCircle } from "react-icons/ai";
+import Support from "../Support/Support";
 
 const SinglePage = () => {
   return (
@@ -172,6 +173,7 @@ const SinglePage = () => {
         </div>
         <button className="show_more">Show More</button>
       </section>
+      <Support />
     </div>
   );
 };
