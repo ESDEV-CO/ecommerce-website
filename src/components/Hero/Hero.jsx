@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="hero_section">
       <div className="hero_img">
-        <img src={require("../../assets/hero_bg.png")} alt="hero bg" />
+        <img src={require("../../assets/hero_bg-min.png")} alt="hero bg" />
       </div>
       <div className="hero_info">
         <h6>New Arrival</h6>

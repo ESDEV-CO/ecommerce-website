@@ -28,13 +28,33 @@ const SinglePage = () => {
       <section className="single_page_product">
         <div className="single_page_product_pictures">
           <div className="side_pictures">
-            <img src={require("../../assets/singleside1.png")} alt="side1" />
-            <img src={require("../../assets/singleside2.png")} alt="side2" />
-            <img src={require("../../assets/singleside3.png")} alt="side3" />
-            <img src={require("../../assets/singleside4.png")} alt="side4" />
+            <img
+              loading="lazy"
+              src={require("../../assets/singleside1.png")}
+              alt="side1"
+            />
+            <img
+              loading="lazy"
+              src={require("../../assets/singleside2.png")}
+              alt="side2"
+            />
+            <img
+              loading="lazy"
+              src={require("../../assets/singleside3.png")}
+              alt="side3"
+            />
+            <img
+              loading="lazy"
+              src={require("../../assets/singleside4.png")}
+              alt="side4"
+            />
           </div>
           <div className="main_picture">
-            <img src={require("../../assets/singleimg1.png")} alt="main" />
+            <img
+              loading="lazy"
+              src={require("../../assets/singleimg1.png")}
+              alt="main"
+            />
           </div>
         </div>
         <div className="single_page_product_info">
@@ -121,15 +141,27 @@ const SinglePage = () => {
           </p>
         </div>
         <div className="description_img">
-          <img src={require("../../assets/sofa1.png")} alt="sofa1" />
-          <img src={require("../../assets/sofa2.png")} alt="sofa2" />
+          <img
+            loading="lazy"
+            src={require("../../assets/sofa1.png")}
+            alt="sofa1"
+          />
+          <img
+            loading="lazy"
+            src={require("../../assets/sofa2.png")}
+            alt="sofa2"
+          />
         </div>
       </section>
       <section className="related_products">
         <h2>Related Products</h2>
         <div className="related_wrapper">
           <div className="product_info">
-            <img src={require("../../assets/sylthe.png")} alt="product" />
+            <img
+              loading="lazy"
+              src={require("../../assets/sylthe.png")}
+              alt="product"
+            />
             <div className="product_info_des">
               <h4>Syltherine</h4>
               <h6>Stylish cafe chair</h6>
@@ -140,7 +172,11 @@ const SinglePage = () => {
             </div>
           </div>
           <div className="product_info">
-            <img src={require("../../assets/leviosa.png")} alt="product" />
+            <img
+              loading="lazy"
+              src={require("../../assets/leviosa.png")}
+              alt="product"
+            />
             <div className="product_info_des">
               <h4>Leviosa</h4>
               <h6>Stylish cafe chair</h6>
@@ -150,7 +186,11 @@ const SinglePage = () => {
             </div>
           </div>
           <div className="product_info">
-            <img src={require("../../assets/lolito.png")} alt="product" />
+            <img
+              loading="lazy"
+              src={require("../../assets/lolito.png")}
+              alt="product"
+            />
             <div className="product_info_des">
               <h4>Lolito</h4>
               <h6>Luxury big sofa </h6>
@@ -161,7 +201,11 @@ const SinglePage = () => {
             </div>
           </div>
           <div className="product_info new">
-            <img src={require("../../assets/respira.png")} alt="product" />
+            <img
+              loading="lazy"
+              src={require("../../assets/respira.png")}
+              alt="product"
+            />
             <div className="product_info_des">
               <h4>Respira</h4>
               <h6>Outdoor bar table and stool</h6>

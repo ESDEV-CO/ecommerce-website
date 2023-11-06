@@ -12,10 +12,18 @@ const Blog = () => {
     <div>
       <section className="contact_header">
         <div className="header_bg">
-          <img src={require("../../assets/page_bg.png")} alt="page bg" />
+          <img
+            loading="lazy"
+            src={require("../../assets/page_bg.png")}
+            alt="page bg"
+          />
         </div>
         <div className="header_info">
-          <img src={require("../../assets/logo.png")} alt="logo" />
+          <img
+            loading="lazy"
+            src={require("../../assets/logo.png")}
+            alt="logo"
+          />
           <h2>Blog</h2>
           <span>
             Home <MdOutlineKeyboardArrowRight /> <span>Blog</span>
@@ -25,7 +33,11 @@ const Blog = () => {
       <section className="blog">
         <div className="blog_data">
           <div className="blog_card">
-            <img src={require("../../assets/blog1.png")} alt="Blog1" />
+            <img
+              loading="lazy"
+              src={require("../../assets/blog1.png")}
+              alt="Blog1"
+            />
             <div className="blog_card_logo">
               <span>
                 <BiSolidUser />
@@ -55,7 +67,11 @@ const Blog = () => {
             <button className="read_more">Read more</button>
           </div>
           <div className="blog_card">
-            <img src={require("../../assets/blog2.png")} alt="Blog2" />
+            <img
+              loading="lazy"
+              src={require("../../assets/blog2.png")}
+              alt="Blog2"
+            />
             <div className="blog_card_logo">
               <span>
                 <BiSolidUser />
@@ -85,7 +101,11 @@ const Blog = () => {
             <button className="read_more">Read more</button>
           </div>
           <div className="blog_card">
-            <img src={require("../../assets/blog3.png")} alt="Blog3" />
+            <img
+              loading="lazy"
+              src={require("../../assets/blog3.png")}
+              alt="Blog3"
+            />
             <div className="blog_card_logo">
               <span>
                 <BiSolidUser />
@@ -151,35 +171,55 @@ const Blog = () => {
           <div className="blog_sidebar_recent">
             <h4>Recent Posts</h4>
             <div className="sidebar_recents">
-              <img src={require("../../assets/recent1.png")} alt="recent1" />
+              <img
+                loading="lazy"
+                src={require("../../assets/recent1.png")}
+                alt="recent1"
+              />
               <div className="recent_info">
                 <span>Going all-in with millennial design</span>
                 <span>03 Aug 2022</span>
               </div>
             </div>
             <div className="sidebar_recents">
-              <img src={require("../../assets/recent2.png")} alt="recent2" />
+              <img
+                loading="lazy"
+                src={require("../../assets/recent2.png")}
+                alt="recent2"
+              />
               <div className="recent_info">
                 <span>Exploring new ways of decorating</span>
                 <span>03 Aug 2022</span>
               </div>
             </div>
             <div className="sidebar_recents">
-              <img src={require("../../assets/recent3.png")} alt="recent3" />
+              <img
+                loading="lazy"
+                src={require("../../assets/recent3.png")}
+                alt="recent3"
+              />
               <div className="recent_info">
                 <span>Handmade pieces that took time to make</span>
                 <span>03 Aug 2022</span>
               </div>
             </div>
             <div className="sidebar_recents">
-              <img src={require("../../assets/recent4.png")} alt="recent4" />
+              <img
+                loading="lazy"
+                src={require("../../assets/recent4.png")}
+                alt="recent4"
+              />
               <div className="recent_info">
                 <span>Modern home in Milan</span>
                 <span>03 Aug 2022</span>
               </div>
             </div>
             <div className="sidebar_recents">
-              <img src={require("../../assets/recent5.png")} alt="recent5" />
+              <img
+                loading="lazy"
+                src={require("../../assets/recent5.png")}
+                alt="recent5"
+              />
               <div className="recent_info">
                 <span>Colorful office redesign</span>
                 <span>03 Aug 2022</span>

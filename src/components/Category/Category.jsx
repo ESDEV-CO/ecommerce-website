@@ -10,15 +10,27 @@ const Category = () => {
       </p>
       <div className="category_data">
         <div className="category_data_img">
-          <img src={require("../../assets/dining.png")} alt="dining" />
+          <img
+            loading="lazy"
+            src={require("../../assets/dining.png")}
+            alt="dining"
+          />
           <h5>Dining</h5>
         </div>
         <div className="category_data_img">
-          <img src={require("../../assets/living-room.png")} alt="living" />
+          <img
+            loading="lazy"
+            src={require("../../assets/living-room.png")}
+            alt="living"
+          />
           <h5>Living</h5>
         </div>
         <div className="category_data_img">
-          <img src={require("../../assets/bedroom.png")} alt="Bedroom" />
+          <img
+            loading="lazy"
+            src={require("../../assets/bedroom.png")}
+            alt="Bedroom"
+          />
           <h5>Bedroom</h5>
         </div>
       </div>

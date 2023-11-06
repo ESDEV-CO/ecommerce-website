@@ -9,7 +9,7 @@ const SideCart = () => {
       <div className="sidecart_heading">
         <h4>Shopping Cart</h4>
         {/* <Link to="/single"> */}
-        {/* <img src={require("../../assets/crossbag.png")} alt="cross" /> */}
+        {/* <img loading="lazy" src={require("../../assets/crossbag.png")} alt="cross" /> */}
         {/* </Link> */}
       </div>
       <div className="horizontal_line"></div>
@@ -17,7 +17,11 @@ const SideCart = () => {
         <div className="side_data_imgs">
           <div className="side_imgs_child">
             <div className="side_imgs_img">
-              <img src={require("../../assets/side1.png")} alt="side1" />
+              <img
+                loading="lazy"
+                src={require("../../assets/side1.png")}
+                alt="side1"
+              />
             </div>
             <div className="side_imgs_info">
               <h6>Asgaard sofa</h6>
@@ -30,7 +34,11 @@ const SideCart = () => {
           </div>
           <div className="side_imgs_child">
             <div className="side_imgs_img">
-              <img src={require("../../assets/side2.png")} alt="side1" />
+              <img
+                loading="lazy"
+                src={require("../../assets/side2.png")}
+                alt="side1"
+              />
             </div>
             <div className="side_imgs_info">
               <h6>Casaliving Wood</h6>

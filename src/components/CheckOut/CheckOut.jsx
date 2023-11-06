@@ -13,10 +13,18 @@ const CheckOut = () => {
     <div className="checkout">
       <section className="contact_header">
         <div className="header_bg">
-          <img src={require("../../assets/page_bg.png")} alt="page bg" />
+          <img
+            loading="lazy"
+            src={require("../../assets/page_bg.png")}
+            alt="page bg"
+          />
         </div>
         <div className="header_info">
-          <img src={require("../../assets/logo.png")} alt="logo" />
+          <img
+            loading="lazy"
+            src={require("../../assets/logo.png")}
+            alt="logo"
+          />
           <h2>Chekout</h2>
           <span>
             Home <MdOutlineKeyboardArrowRight /> <span>Checkout</span>

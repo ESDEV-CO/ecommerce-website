@@ -19,6 +19,7 @@ const Shop = () => {
           Home <MdOutlineKeyboardArrowRight /> <span>Shop</span>
         </span>
         <img
+          loading="lazy"
           className="shop_header_bg"
           src={require("../../assets/product_bg.png")}
           alt=""
@@ -27,16 +28,13 @@ const Shop = () => {
           <div className="filter_child">
             <div className="filter_grandchild1">
               <span className="filter_logo">
-                {/* <img src={require("../../assets/filter.png")} alt="" /> */}
                 <GiCheckboxTree />
                 Filter
               </span>
               <span className="filter_logo">
-                {/* <img src={require("../../assets/round_icon.png")} alt="" /> */}
                 <BsFillGridFill />
               </span>
               <span className="filter_logo">
-                {/* <img src={require("../../assets/list_icon.png")} alt="" /> */}
                 <MdSplitscreen />
               </span>
             </div>
@@ -59,7 +57,11 @@ const Shop = () => {
       <section className="shop_products">
         <div className="all_products mt_0">
           <Link to={"/single"} className="product_info">
-            <img src={require("../../assets/sylthe.png")} alt="product" />
+            <img
+              loading="lazy"
+              src={require("../../assets/sylthe.png")}
+              alt="product"
+            />
             <div className="product_info_des">
               <h4>Syltherine</h4>
               <h6>Stylish cafe chair</h6>
@@ -70,7 +72,11 @@ const Shop = () => {
             </div>
           </Link>
           <div className="product_info">
-            <img src={require("../../assets/leviosa.png")} alt="product" />
+            <img
+              loading="lazy"
+              src={require("../../assets/leviosa.png")}
+              alt="product"
+            />
             <div className="product_info_des">
               <h4>Leviosa</h4>
               <h6>Stylish cafe chair</h6>
@@ -94,7 +100,11 @@ const Shop = () => {
             </div>
           </div>
           <div className="product_info">
-            <img src={require("../../assets/lolito.png")} alt="product" />
+            <img
+              loading="lazy"
+              src={require("../../assets/lolito.png")}
+              alt="product"
+            />
             <div className="product_info_des">
               <h4>Lolito</h4>
               <h6>Luxury big sofa </h6>
@@ -105,7 +115,11 @@ const Shop = () => {
             </div>
           </div>
           <div className="product_info new">
-            <img src={require("../../assets/respira.png")} alt="product" />
+            <img
+              loading="lazy"
+              src={require("../../assets/respira.png")}
+              alt="product"
+            />
             <div className="product_info_des">
               <h4>Respira</h4>
               <h6>Outdoor bar table and stool</h6>
@@ -115,7 +129,11 @@ const Shop = () => {
             </div>
           </div>
           <div className="product_info">
-            <img src={require("../../assets/sylthe.png")} alt="product" />
+            <img
+              loading="lazy"
+              src={require("../../assets/sylthe.png")}
+              alt="product"
+            />
             <div className="product_info_des">
               <h4>Syltherine</h4>
               <h6>Stylish cafe chair</h6>
@@ -126,7 +144,11 @@ const Shop = () => {
             </div>
           </div>
           <div className="product_info">
-            <img src={require("../../assets/leviosa.png")} alt="product" />
+            <img
+              loading="lazy"
+              src={require("../../assets/leviosa.png")}
+              alt="product"
+            />
             <div className="product_info_des">
               <h4>Leviosa</h4>
               <h6>Stylish cafe chair</h6>
@@ -136,7 +158,11 @@ const Shop = () => {
             </div>
           </div>
           <div className="product_info">
-            <img src={require("../../assets/lolito.png")} alt="product" />
+            <img
+              loading="lazy"
+              src={require("../../assets/lolito.png")}
+              alt="product"
+            />
             <div className="product_info_des">
               <h4>Lolito</h4>
               <h6>Luxury big sofa </h6>
@@ -147,7 +173,11 @@ const Shop = () => {
             </div>
           </div>
           <div className="product_info new">
-            <img src={require("../../assets/respira.png")} alt="product" />
+            <img
+              loading="lazy"
+              src={require("../../assets/respira.png")}
+              alt="product"
+            />
             <div className="product_info_des">
               <h4>Respira</h4>
               <h6>Outdoor bar table and stool</h6>
@@ -157,7 +187,11 @@ const Shop = () => {
             </div>
           </div>
           <div className="product_info">
-            <img src={require("../../assets/sylthe.png")} alt="product" />
+            <img
+              loading="lazy"
+              src={require("../../assets/sylthe.png")}
+              alt="product"
+            />
             <div className="product_info_des">
               <h4>Syltherine</h4>
               <h6>Stylish cafe chair</h6>
@@ -168,7 +202,11 @@ const Shop = () => {
             </div>
           </div>
           <div className="product_info">
-            <img src={require("../../assets/leviosa.png")} alt="product" />
+            <img
+              loading="lazy"
+              src={require("../../assets/leviosa.png")}
+              alt="product"
+            />
             <div className="product_info_des">
               <h4>Leviosa</h4>
               <h6>Stylish cafe chair</h6>
@@ -178,7 +216,11 @@ const Shop = () => {
             </div>
           </div>
           <div className="product_info">
-            <img src={require("../../assets/lolito.png")} alt="product" />
+            <img
+              loading="lazy"
+              src={require("../../assets/lolito.png")}
+              alt="product"
+            />
             <div className="product_info_des">
               <h4>Lolito</h4>
               <h6>Luxury big sofa </h6>
@@ -189,7 +231,11 @@ const Shop = () => {
             </div>
           </div>
           <div className="product_info new">
-            <img src={require("../../assets/respira.png")} alt="product" />
+            <img
+              loading="lazy"
+              src={require("../../assets/respira.png")}
+              alt="product"
+            />
             <div className="product_info_des">
               <h4>Respira</h4>
               <h6>Outdoor bar table and stool</h6>
@@ -199,7 +245,11 @@ const Shop = () => {
             </div>
           </div>
           <div className="product_info">
-            <img src={require("../../assets/sylthe.png")} alt="product" />
+            <img
+              loading="lazy"
+              src={require("../../assets/sylthe.png")}
+              alt="product"
+            />
             <div className="product_info_des">
               <h4>Syltherine</h4>
               <h6>Stylish cafe chair</h6>
@@ -210,7 +260,11 @@ const Shop = () => {
             </div>
           </div>
           <div className="product_info">
-            <img src={require("../../assets/leviosa.png")} alt="product" />
+            <img
+              loading="lazy"
+              src={require("../../assets/leviosa.png")}
+              alt="product"
+            />
             <div className="product_info_des">
               <h4>Leviosa</h4>
               <h6>Stylish cafe chair</h6>
@@ -220,7 +274,11 @@ const Shop = () => {
             </div>
           </div>
           <div className="product_info">
-            <img src={require("../../assets/lolito.png")} alt="product" />
+            <img
+              loading="lazy"
+              src={require("../../assets/lolito.png")}
+              alt="product"
+            />
             <div className="product_info_des">
               <h4>Lolito</h4>
               <h6>Luxury big sofa </h6>
@@ -231,7 +289,11 @@ const Shop = () => {
             </div>
           </div>
           <div className="product_info new">
-            <img src={require("../../assets/respira.png")} alt="product" />
+            <img
+              loading="lazy"
+              src={require("../../assets/respira.png")}
+              alt="product"
+            />
             <div className="product_info_des">
               <h4>Respira</h4>
               <h6>Outdoor bar table and stool</h6>

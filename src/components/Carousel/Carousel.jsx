@@ -18,6 +18,7 @@ const Carousel = () => {
       <div className="carousel_data">
         <div className="carousel_slide">
           <img
+            loading="lazy"
             className="carousel_slide_img"
             src={require("../../assets/carousel1.png")}
             alt="slide1"
@@ -32,6 +33,7 @@ const Carousel = () => {
         </div>
         <div className="carousel_slide2">
           <img
+            loading="lazy"
             className="carousel_slide_img "
             src={require("../../assets/carousel2.png")}
             alt="slide2"
@@ -47,6 +49,7 @@ const Carousel = () => {
         </div>
         <div className="carousel_slide">
           <img
+            loading="lazy"
             className="carousel_slide_img"
             src={require("../../assets/carousel3.png")}
             alt="slide3"

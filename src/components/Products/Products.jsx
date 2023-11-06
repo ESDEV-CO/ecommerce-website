@@ -11,21 +11,11 @@ const Products = () => {
     <div className="products">
       <h2>Our Products</h2>
       <div className="all_products">
-        {/* <div className="product_info new">
-          <img src={require("../../assets/potty.png")} alt="product" />
-          <div className="product_info_des">
-            <h4>Potty</h4>
-            <h6>Minimalist flower pot</h6>
-            <div className="side_by_side">
-              <h5>Rp 500.000</h5>
-            </div>
-          </div>
-        </div> */}
         {ProductsData.map((itm) => {
           return (
-            <div className="product_container">
+            <div key={itm?.id} className="product_container">
               <div className="product_info">
-                <img src={itm?.image} alt="product" />
+                <img loading="lazy" src={itm?.image} alt="product" />
                 <div className="product_info_des">
                   <h4>{itm?.name}</h4>
                   <h6>{itm?.description}</h6>

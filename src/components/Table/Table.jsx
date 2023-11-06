@@ -25,6 +25,7 @@ const Table = () => {
         <tr className="second_row">
           <td className="img_container">
             <img
+              loading="lazy"
               className="table_img"
               src={require("../../assets/table1.png")}
               alt="sofa"

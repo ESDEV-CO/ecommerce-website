@@ -11,7 +11,6 @@ const Support = () => {
       <div className="support_wrapper">
         <div className="support_data">
           <span className="support_logo">
-            {/* <img src={require("../../assets/trofy.png")} alt="" /> */}
             <BsTrophy />
           </span>
           <span>
@@ -21,7 +20,6 @@ const Support = () => {
         </div>
         <div className="support_data">
           <span className="support_logo">
-            {/* <img src={require("../../assets/done.png")} alt="" /> */}
             <BsPatchCheck />
           </span>
           <span>
@@ -31,7 +29,6 @@ const Support = () => {
         </div>
         <div className="support_data">
           <span className="support_logo">
-            {/* <img src={require("../../assets/shipping.png")} alt="" /> */}
             <LiaShippingFastSolid />
           </span>
           <span>
@@ -41,7 +38,6 @@ const Support = () => {
         </div>
         <div className="support_data">
           <span className="support_logo">
-            {/* <img src={require("../../assets/call.png")} alt="" /> */}
             <BiSupport />
           </span>
           <span>
